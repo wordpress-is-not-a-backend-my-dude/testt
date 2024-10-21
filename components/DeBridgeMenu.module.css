@@ -1,0 +1,10 @@
+.scrollableContent {
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrollableContent::-webkit-scrollbar {
+  display: none;
+}
+
